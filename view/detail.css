@@ -1,0 +1,146 @@
+body {
+    margin:0px
+}
+header {
+    width:100%;
+    min-width:1920px;
+}
+header label {
+    color:gray;
+    float:right;
+    margin:25px 20px;
+}
+.top_menu_ul {
+    list-style:none;
+    float:left;
+    padding-right:35px;
+    color:#000;
+    opacity:0.9;
+    text-decoration: none;
+    display:block;
+    padding-right:26px;
+}
+.top_menu_ul li {
+    list-style:none;
+    float:left;
+    padding-right:35px;
+    color:#000;
+    opacity:0.9;
+    text-decoration: none;
+    display:block;
+    padding-right:26px;
+}
+header a {
+    color:#000;
+    opacity:0.9;
+    text-decoration: none;
+    display:block;
+    padding-right:26px;
+
+}
+header section{
+    width:1700px;
+    flex:1;
+    display:flex;
+    margin:0 auto;
+    border-bottom: 1px solid #eee;
+
+}
+.top_menu{
+    flex:1;
+    color:#664433;
+    margin-top:10px;
+    margin-left:570px;
+}
+.logout {
+    float:right;
+}
+.main_menu{
+    width:1170px;
+    height:40px;
+    margin:0 auto;
+    min-width:1170px;
+}
+
+.main_menu a{
+    float:left;
+    text-align:center;
+    color:#000;
+    opacity:0.9;
+    padding:10px 90px;
+    font-size:14px;
+}
+.content {
+    text-align:center;
+    margin: 50px 0px 80px;
+}
+
+main {
+    width:100%;
+    background-color:#f7f7f7;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+    min-width:1920px;
+}
+.contents-wrapper {
+    margin-left: 400px;
+    height: 500px;
+    display:flex;
+    align-items: flex-start;
+}
+img {
+    width:500px;
+}
+.detail {
+    margin-left: 100px;
+    flex:1;
+}
+.detail p {
+    font-size:22px;
+    color:#555;
+}
+.down_btn {
+    display: flex;
+    margin: 0 0 80px 640px;
+}
+.btn {
+    padding:8px 65px;
+    display:inline-block;
+    opacity:0.8;
+    border-radius: 4px;
+    margin-right: 115px;
+}
+.btn:hover {
+    opacity:1;
+}
+.cart {
+    background-color:#404142;
+}
+.top {
+    background-color:#404142;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+footer {
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    color: #5f5d60;
+    background-color:#fff;
+    min-width:1920px;
+}
+.fotter_menu a{
+    float:left;
+    text-align:center;
+    color:#000;
+    opacity:0.9;
+    padding:20px 80px;
+}
+.fotter_menu{
+    width: 1170px;
+    height: 60px;
+    margin-left:450px;
+    min-width: 1170px;
+    font-size: 10px;
+}

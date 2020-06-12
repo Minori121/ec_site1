@@ -1,0 +1,146 @@
+body {
+    margin:0px
+}
+header {
+    width:100%;
+    min-width:1920px;
+}
+header section{
+    width:960px;
+    flex:1;
+    display:flex;
+    margin:0 auto;
+}
+
+header a{
+    flex:1;
+    color:#664433;
+    margin-top:10px;
+}
+a{
+    text-decoration:none;
+    display:block;
+}
+header nav{
+    float:right;
+    margin:20px auto 10px;
+}
+
+header nav a{
+    /*flex:1;*/
+    float:left;
+    text-align:center;
+    color:#000;
+    opacity:0.9;
+    padding-right:50px;
+}
+.logout {
+    float:right;
+    padding-right:100px;
+}
+header label {
+    color:white;
+    float:right;
+    margin:20px 20px;
+}
+main {
+    padding:70px 0 40px;
+}
+.main_column {
+    margin:0 auto;
+}
+.main_top {
+    padding: 100px 0 120px 0;
+    background-color:#fff;
+    min-width: 1920px;
+}
+.main_top_content {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align:center;
+}
+.main_top h1 {
+    opacity:0.7;
+    font-size:45px;
+    letter-spacing: 5px;
+}
+.main_top p {
+    opacity:0.7;
+}
+.main_menu a{
+    float:left;
+    text-align:center;
+    color:#000;
+    opacity:0.9;
+    padding:20px 80px;
+}
+.main_menu{
+    width:1170px;
+    height:60px;
+    margin-left:379px;
+    min-width:1170px;
+    border-bottom: solid 1px #cccccc;
+}
+
+.contents01 {
+    padding:160px 0 40px 0 ;
+    background-image:url(top.jpg);
+    background-repeat:no-repeat;
+    background-position:370px 100px;
+    margin-bottom:100px;
+}
+.titleblock01 {
+    width: 470px;
+    height: 420px;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 70px;
+    margin-left:1100px;
+    text-align:center;
+}
+
+.titleblock p {
+    font-size:13px;
+}
+
+.contents02 {
+    padding:160px 0 40px 0 ;
+    background-image:url(top2.jpg);
+    background-repeat:no-repeat;
+    background-position:580px 100px;
+    margin-bottom:100px;
+}
+.titleblock02 {
+    width: 470px;
+    height: 420px;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 70px;
+    margin-left:370px;
+    text-align:center;
+}
+.fotter_menu a{
+    float:left;
+    text-align:center;
+    color:#000;
+    opacity:0.9;
+    padding:20px 80px;
+}
+.fotter_menu{
+    width: 1170px;
+    height: 60px;
+    margin-left:450px;
+    min-width: 1170px;
+    border-top: solid 1px #cccccc;
+    font-size: 10px;
+}
+
+footer {
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    padding-top: 60px;
+    color: #5f5d60;
+    background-color:#fff;
+    min-width:1920px;
+}
